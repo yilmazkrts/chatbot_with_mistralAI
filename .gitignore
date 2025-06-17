@@ -6,6 +6,7 @@ __pycache__/
 # Virtual environment
 venv/
 env/
+chatbot-mistral-env/
 
 # Environment variables
 .env
