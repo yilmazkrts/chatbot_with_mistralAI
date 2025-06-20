@@ -27,7 +27,6 @@ In this project, I created a chatbot using:
 - **LangChain** for conversational logic,
 - **Streamlit** for a simple web UI.
 
-
 ---
 
 ## 🔗 What is LCEL (LangChain Expression Language)?
@@ -83,6 +82,8 @@ Now that we’ve seen how to stream a response from the LLM using LangChain, let
 Streamlit is a great way to create simple web applications in Python with minimal code.
 
 Let’s build the structure of a simple chatbot that is already working.
+
+---
 
 ### 🔧 Streamlit Chatbot Setup
 
@@ -171,9 +172,9 @@ if user_query is not None and user_query != "":
 
 The code above is a user-friendly chatbot application that enables real-time conversations between the user and an AI assistant powered by Mistral AI. Built with Streamlit for the interface and LangChain for managing the conversational logic, the application handles user messages, maintains conversation history, and generates context-aware responses. It demonstrates how to combine prompt templates, a language model, and an output parser into a modular pipeline, while Streamlit’s session state ensures the conversation flows naturally across messages.
 
+---
 
-
-##Conclusion
+## Conclusion
 In this article we saw how to create a very simple LLM-powered chatbot that uses streaming to improve the user experience. To do this, we used LangChain and Streamlit to make the development as fast and simple as possible.
 
 
